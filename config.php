@@ -4,4 +4,5 @@ $data = [
         "port" => 86
     ]
 ];
+echo json_encode($data);
 ?>

@@ -12,7 +12,7 @@ if [ ! -f "$1" ]; then
     exit 1
 fi
 
-OUTPUT=$($PHP_PATH -f "$1" | sed 's/^/{ "config": /; s/$/ }/')
+OUTPUT=$($PHP_PATH -f "$1")
 if [ $? -ne 0 ]; then
     echo "Error with the PHP File."
     exit 1
@@ -20,4 +20,4 @@ fi
 
 echo "$OUTPUT" > "${1%.php}.json"
 
-echo "Converted".
+echo "Converted to ${1%.php}.json"

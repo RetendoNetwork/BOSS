@@ -1,5 +1,5 @@
 # BOSS
-- Retendo BOSS server replacement
+- Retendo BOSS server replacement for Wii U & 3DS Consoles.
 
 # How to use ?
 - Install [Git](https://git-scm.com/downloads), [NodeJS](https://nodejs.org) and [PHP](https://www.php.net/downloads).
