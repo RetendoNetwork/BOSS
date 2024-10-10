@@ -1,0 +1,30 @@
+{
+  "name": "boss",
+  "version": "1.0.0",
+  "description": "Retendo BOSS server replacement",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RetendoNetwork/BOSS.git"
+  },
+  "author": "Retendo Contributors",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RetendoNetwork/BOSS/issues"
+  },
+  "homepage": "https://github.com/RetendoNetwork/BOSS#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
