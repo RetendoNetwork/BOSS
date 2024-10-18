@@ -1,6 +1,6 @@
 import express from 'express';
 import logger from './utils/logger';
-const config = require('../config.json');
+const config = require('../../../config/boss-config');
 const { config: { port } } = config;
 const app = express();
 
