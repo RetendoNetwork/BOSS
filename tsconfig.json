@@ -9,6 +9,6 @@
     "skipLibCheck": true,
     "esModuleInterop": true
   },
-  "include": ["src/**/*", "../config/config-boss.js"],
+  "include": ["src/**/*", "../../config/boss-config.js"],
   "exclude": ["node_modules"]
 }
