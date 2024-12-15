@@ -2,7 +2,7 @@
   "name": "boss",
   "version": "1.0.0",
   "description": "Retendo Network BOSS Server Replacement.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/RetendoNetwork/BOSS/issues"
   },
-  "homepage": "https://github.com/RetendoNetwork/BOSS#readme"
+  "homepage": "https://github.com/RetendoNetwork/BOSS#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-subdomain": "^1.0.6",
+    "mongoose": "^8.9.0",
+    "morgan": "^1.10.0"
+  }
 }
